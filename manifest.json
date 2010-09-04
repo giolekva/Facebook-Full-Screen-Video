@@ -1,0 +1,15 @@
+{
+	"name" : "Facebook Full Screen Video",
+	"description" : "View embedded videos in fullscreen at Facebook. Supports YouTube and Vimeo embedded videos. Thanks to Elene for icons =).",
+	"version" : "1.5",
+	"icons" : {
+		"16" : "icon/16.png",
+		"32" : "icon/32.png",
+		"48" : "icon/48.png",
+		"128" : "icon/128.png"
+	},
+	"content_scripts" : [{
+		"matches" : ["http://www.facebook.com/*"],
+		"js" : ["main.js"]
+	}]
+}
